@@ -1,0 +1,125 @@
+/* GENERAL */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    width: 100%;
+}
+h1{
+    color: red;
+    text-align: center;
+    padding: 15px;
+    background-color: lightcyan;
+}
+hr{
+    color: none;
+}
+input{
+    height: 20px;
+    width: 250px;
+    margin-top: 5px;
+    text-align: center;
+}
+#inputCantJugadores{
+    width: 50px;
+}
+
+/* FORMULARIO */
+#sectionForm{
+    text-align: center;
+    background-color: lightskyblue;
+    /* margin: 10px 20%; */
+}
+#sectionForm button{
+    background-color: lightcoral;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: 800;
+    border: none;
+}
+#sectionForm button:hover{
+    transform: scale(1.05);
+    background-color: turquoise;
+}
+#botonJugar{
+    width: 250px;
+}
+
+/* TABLA JUGADORES */
+#sectionTablaJugadores{
+    border: solid pink;
+}
+.artPlayers{
+    /* background-color: green; */
+    width: 100%;
+    height: 355px;
+    text-align: center;
+    margin: 0 0 5px 0;
+    background-color: lightblue;
+    border: solid gray;
+    border-radius: 25px;
+}
+h2{
+    font-family: 'Cinzel Decorative', cursive;
+    /* padding: 10px 10px 40px 10px; */
+    font-size: 3em;
+    text-transform: capitalize;
+}
+
+/* #h3None{
+    display: none;
+} */
+
+
+.divPuntaje{
+    height: 200px;
+    /* background-color: red; */
+    margin: 50px 0 50px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+.botonesVida{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 3em;
+    background-color: whitesmoke;
+    border: solid gray;
+    border-color: none;
+    border: none;
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+}
+
+.botonesVida:hover{
+    transform: scale(1.05);
+    background-color: turquoise;
+}
+
+.divHvida{
+    background-color: whitesmoke;
+    /* padding: 30px; */
+    border-radius: 75px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.divPuntaje h3{
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+    /* background-color: burlywood; */
+    /* padding: 30px; */
+    /* background-color: red; */
+    /* border-radius: 50%;  */
+    font-size: 5em;
+}
